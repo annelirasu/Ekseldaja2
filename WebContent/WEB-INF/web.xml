@@ -19,4 +19,34 @@
     <servlet-name>EkseldajaS</servlet-name>
     <url-pattern>/EkseldajaS</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Halloo</display-name>
+    <servlet-name>Halloo</servlet-name>
+    <servlet-class>Halloo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Halloo</servlet-name>
+    <url-pattern>/Halloo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SetUpDatabase</display-name>
+    <servlet-name>SetUpDatabase</servlet-name>
+    <servlet-class>SetUpDatabase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetUpDatabase</servlet-name>
+    <url-pattern>/SetUpDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReadBears</display-name>
+    <servlet-name>ReadBears</servlet-name>
+    <servlet-class>ReadBears</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadBears</servlet-name>
+    <url-pattern>/ReadBears</url-pattern>
+  </servlet-mapping>
 </web-app>

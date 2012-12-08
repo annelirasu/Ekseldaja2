@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<project name="Hello" default="compile">
+	<target name="compile">
+		<delete dir="build" />
+		<mkdir dir="build/classes" />
+		<javac srcdir="src" destdir="build/classes" classpath="WebContent/WEB-INF/lib/servlet-api.jar">
+		</javac>
+	</target>
+</project>
